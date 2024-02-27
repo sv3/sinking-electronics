@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "particle")(type "KiCad")(uri "${KIPRJMOD}/libs/particle.kicad_sym")(options "")(descr ""))
+  (lib (name "V7805")(type "KiCad")(uri "${KIPRJMOD}/libs/V7805-1000.kicad_sym")(options "")(descr ""))
+)

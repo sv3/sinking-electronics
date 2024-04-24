@@ -1,27 +1,389 @@
-
-(footprint CONV_V7805-1000 (layer F.Cu) (tedit 65D1809C)
-  (descr "")
-  (fp_text reference REF** (at -2.57946 -5.6447 0) (layer F.SilkS)
-    (effects (font (size 1.00171653543 1.00171653543) (thickness 0.15)))
-  )
-  (fp_text value CONV_V7805-1000 (at 3.785995 5.631425 0) (layer F.Fab)
-    (effects (font (size 1.00292125984 1.00292125984) (thickness 0.15)))
-  )
-  (pad 1 thru_hole rect (at -2.54 -2.35) (size 1.508 1.508) (drill 1.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
-  (pad 2 thru_hole circle (at 0.0 -2.35) (size 1.508 1.508) (drill 1.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
-  (pad 3 thru_hole circle (at 2.54 -2.35) (size 1.508 1.508) (drill 1.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
-  (fp_line (start -5.75 -4.5) (end 5.75 -4.5) (layer F.Fab) (width 0.127))
-  (fp_line (start 5.75 -4.5) (end 5.75 4.5) (layer F.Fab) (width 0.127))
-  (fp_line (start 5.75 4.5) (end -5.75 4.5) (layer F.Fab) (width 0.127))
-  (fp_line (start -5.75 4.5) (end -5.75 -4.5) (layer F.Fab) (width 0.127))
-  (fp_line (start -5.75 4.5) (end -5.75 -4.5) (layer F.SilkS) (width 0.127))
-  (fp_line (start 5.75 -4.5) (end 5.75 4.5) (layer F.SilkS) (width 0.127))
-  (fp_line (start -5.75 -4.5) (end 5.75 -4.5) (layer F.SilkS) (width 0.127))
-  (fp_line (start 5.75 4.5) (end -5.75 4.5) (layer F.SilkS) (width 0.127))
-  (fp_circle (center -2.54 -2.35) (end -2.34 -2.35) (layer F.Fab) (width 0.4))
-  (fp_circle (center -6.42 -2.35) (end -6.22 -2.35) (layer F.SilkS) (width 0.4))
-  (fp_line (start -6.0 -4.75) (end 6.0 -4.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 6.0 -4.75) (end 6.0 4.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 6.0 4.75) (end -6.0 4.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -6.0 4.75) (end -6.0 -4.75) (layer F.CrtYd) (width 0.05))
+(footprint "CONV_V7805-1000"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(placed yes)
+	(layer "F.Cu")
+	(property "Reference" "U2"
+		(at -2.57946 -5.6447 180)
+		(layer "F.SilkS")
+		(uuid "596b10ef-8e27-4919-8ddb-2a6db71711ea")
+		(effects
+			(font
+				(size 1.001717 1.001717)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "V7805-1000"
+		(at 3.785995 5.631425 180)
+		(layer "Cmts.User")
+		(uuid "8a8bba88-a4ce-42e8-ac49-4bd6c1abe4bc")
+		(effects
+			(font
+				(size 1.002921 1.002921)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "libs:CONV_V7805-1000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a4810e3-0b23-4450-befb-7fc67fee411d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f54c172f-733c-4b9c-aae8-1356ff65304f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "1 A Output Current, 4.75~32 Vdc Input, 3 Pin SIP, Non-Isolated, Dc-Dc Converter"
+		(at 92 47 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "311dc2b6-2462-4dcc-b233-98badc326367")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6e84ab3-ef2b-445b-bc5a-d43ec142d982")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CUI_purchase_URL" "https://www.cui.com/product/dc-dc-converters/non-isolated/v78-1000-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fec28d4-07a1-464f-976d-e24d08c9b86e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/V7805-1000/CUI/view-part/?ref=eda"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b5c0fe2-2c02-40b3-9437-6c606377db5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "CUI INC"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a803e719-1c56-40bd-a56f-693a7631285a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "CUI Inc."
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f943e9b7-a3c0-408a-bb17-0cd32f2a9ab6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "V7805-1000"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "957953e4-9e59-42f9-85ae-a7598b6a76b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "1.04"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e619a96-235e-4bfe-848f-4346126484ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SIP-3 CUI"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "081e57c6-7481-4309-a2de-c5070bc99af8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac84f288-a35c-4783-8c62-626053e97f8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=592015&manufacturer=CUI Inc.&part_name=V7805-1000&search_term=None"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1613aadf-fd48-45a3-ac9d-91155cb510b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8cd82a7-df58-4120-be5c-b6a33c534d1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/V7805-1000/CUI/view-part/?ref=snap"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c59b62c-afc1-4250-982d-d765d5cd1a50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.75 -4.5)
+		(end 5.75 -4.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0f0c8c9-ac4f-491d-b497-cfa3bf965c30")
+	)
+	(fp_line
+		(start -5.75 4.5)
+		(end -5.75 -4.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c0f64c2-099c-4af5-9d99-da9d05c91224")
+	)
+	(fp_line
+		(start 5.75 -4.5)
+		(end 5.75 4.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6722493d-2919-4034-9065-fe8a3fa525cc")
+	)
+	(fp_line
+		(start 5.75 4.5)
+		(end -5.75 4.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8623deca-0732-47de-b30b-7f0dc2071713")
+	)
+	(fp_circle
+		(center -6.42 -2.35)
+		(end -6.22 -2.35)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "05e952c7-7a0b-44e2-b854-1a5c7bf87d6a")
+	)
+	(fp_line
+		(start -6 -4.75)
+		(end 6 -4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a59d67ff-3e17-44c1-ae77-91a5198277a5")
+	)
+	(fp_line
+		(start -6 4.75)
+		(end -6 -4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d63d85ab-62c8-4ba1-ab20-f593ad26b6b4")
+	)
+	(fp_line
+		(start 6 -4.75)
+		(end 6 4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ccad67b7-ba69-4fcd-a883-37ea048e2a6a")
+	)
+	(fp_line
+		(start 6 4.75)
+		(end -6 4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f1fac9a-f63a-4d6b-a2d9-e7d86f4991df")
+	)
+	(fp_line
+		(start -5.75 -4.5)
+		(end 5.75 -4.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "216d046f-2e6c-4118-9e25-ebf75a7c29fa")
+	)
+	(fp_line
+		(start -5.75 4.5)
+		(end -5.75 -4.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e57ea73e-b434-4b1b-9a3d-367dd4ffe618")
+	)
+	(fp_line
+		(start 5.75 -4.5)
+		(end 5.75 4.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e06738c3-639b-4cab-b17d-82a44c3ed7db")
+	)
+	(fp_line
+		(start 5.75 4.5)
+		(end -5.75 4.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6c8688b-9442-48c2-a8d9-601bc9ac012c")
+	)
+	(fp_circle
+		(center -2.54 -2.35)
+		(end -2.34 -2.35)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ae28ff41-3bc7-4cd8-9333-c312f32f514f")
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 -2.35)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "791170e1-5ffa-4fa1-9f77-20cd21e6e0ff")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.35)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "99415922-a11b-4d6e-a0f8-2030cb78f77b")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 -2.35)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9df49236-677b-44a5-b50c-2be62ace7e30")
+	)
+	(model "${KIPRJMOD}/libs/V7805-1000.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
